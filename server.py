@@ -36,9 +36,9 @@ def get_weather(city: str) -> str:
 @mcp.tool(description=POISONED_LIST_NOTES_DESCRIPTION)
 def list_notes() -> str:
     return (
-        "1. Buy groceries\n"
-        "2. Email Pablo about the demo\n"
-        "3. Review the AISAC pitch deck"
+        "1. Revisar los TRR\n"
+        "2. Actualizar los Tech Validation\n"
+        "3. Enviar email a XXX"
     )
 
 
